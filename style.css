@@ -1,0 +1,57 @@
+#left-container {
+	background-color: #eee;
+	width: 20%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+
+.toppings {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 0;
+}
+
+.container{
+position: relative;
+height: 15%;
+
+}
+
+#iceCream{
+	z-index: 3;
+	text-align: center;
+	
+}
+
+#Mbutton{
+	position:absolute;
+	bottom: 85%;
+	left: 50%;
+	font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+#Menu{
+	height: 58%;
+	width: 40%;
+	background: #1daf00;
+	border-radius: 1rem;
+	position: absolute;
+	text-align: center;
+	left: 30%;
+	bottom: 20%;
+	font-size: 0.25in;
+	
+}
